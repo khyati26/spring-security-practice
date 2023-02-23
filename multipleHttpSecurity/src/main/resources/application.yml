@@ -1,0 +1,18 @@
+spring:
+  thymeleaf:
+    suffix: .html
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: root
+    username: root
+    url: jdbc:mysql://localhost:3306/jpa-demo
+#  security:
+#    oauth2:
+#      client:
+#        registration:
+#          google:
+#            client-id: 290378066656-934255mra4hvbjh92our85fvasl74cvf.apps.googleusercontent.com
+#            client-secret: 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
+#            scope:
+#              - email
+#              - profile

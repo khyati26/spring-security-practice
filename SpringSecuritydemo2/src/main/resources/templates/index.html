@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="ISO-8859-1">
+  <title>Spring Multiple Login Pages Demo</title>
+</head>
+<body>
+<div align="center">
+  <h2>Welcome to Index Page</h2>
+
+  <p>Your user name is: <b><span th:text="${#request.userPrincipal.getName()}"></span></b></p>
+  <h4><a th:href="@{/logout}">Logout</a></h4>
+  <p/>
+</div>
+</body>
+</html>

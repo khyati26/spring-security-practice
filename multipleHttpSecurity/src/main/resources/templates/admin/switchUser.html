@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="POST" th:action="@{/admin/impersonate}" class="form">
+    <label for="usernameField">User name:</label>
+    <input type="text" name="username" id="usernameField"/>
+    <input type="submit" value="Switch User"/>
+</form>
+</body>
+</html>
